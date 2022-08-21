@@ -283,6 +283,7 @@ main {
     padding: 2rem 1.5rem;
     background-color: #fff;
     border-radius: 1rem;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* MAIN >>> BIG SIX */
@@ -297,7 +298,6 @@ main {
 }
 
 .clubs article {
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     border-left: 5px solid var(--secondary-color);    
     font-size: 1.4rem;
     line-height: 1.8rem;
