@@ -24,7 +24,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 20% 80%;
     grid-template-areas: 
                         'sidebar header'
                         'sidebar main'
@@ -220,6 +220,10 @@ input#search {
 
     background-color: var(--primary-color);
     padding: 2rem 1.5rem;
+    
+    position: fixed;
+    width: 20%;
+    height: 100vh;
 }
 
 .dashboard,
